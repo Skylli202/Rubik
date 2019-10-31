@@ -1,3 +1,5 @@
+package Cubie;
+
 // ----- Solver for the Two-Generator group ----
 import java.awt.event.*;
 

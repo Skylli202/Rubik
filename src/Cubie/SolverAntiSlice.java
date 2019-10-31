@@ -1,3 +1,4 @@
+package Cubie;
 
 // ----- Solver for the Anti-Slice group ----
 import java.awt.event.*;

@@ -1,3 +1,5 @@
+package Cubie;
+
 import java.awt.*;
 
 // ImButton

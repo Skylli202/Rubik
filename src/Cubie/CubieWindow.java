@@ -1,4 +1,4 @@
-
+package Cubie;
 //Rubik's Cube simulator
 
 import java.awt.*;

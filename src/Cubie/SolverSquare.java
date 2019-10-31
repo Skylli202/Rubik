@@ -1,3 +1,5 @@
+package Cubie;
+
 // ----- Solver for the Square group ----
 import java.awt.event.*;
 

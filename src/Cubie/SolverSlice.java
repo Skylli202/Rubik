@@ -1,5 +1,8 @@
+package Cubie;
 
 // ----- Solver for the Slice group ----
+import Cubie.CubePosition;
+
 import java.awt.event.*;
 
 final class SolverSlice extends Solver

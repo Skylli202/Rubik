@@ -1,3 +1,5 @@
+package Cubie;
+
 public final class CubePosition
 {
 	// internal general cube representation

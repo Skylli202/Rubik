@@ -1,3 +1,4 @@
+package Cubie;
 
 // ----- Solver for the full group, kociemba 2-phase ----
 import java.awt.event.*;

@@ -1,3 +1,5 @@
+package Cubie;
+
 public final class Settings
 {
 	public int group = 0;	// current cube group

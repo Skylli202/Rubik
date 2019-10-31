@@ -118,7 +118,30 @@ public class Cube {
     }
 
     public void moveDown() {
+        // pivot de la face
+        pivotFace(5);
 
+        // Rotation des facettes adjascentes
+        int tmp1[] = rubiksCube[1];
+        int tmp2[] = rubiksCube[2];
+        int tmp3[] = rubiksCube[3];
+        int tmp4[] = rubiksCube[4];
+
+        rubiksCube[1][6] = tmp4[6];
+        rubiksCube[1][7] = tmp4[7];
+        rubiksCube[1][8] = tmp4[8];
+
+        rubiksCube[2][6] = tmp1[6];
+        rubiksCube[2][7] = tmp1[7];
+        rubiksCube[2][8] = tmp1[8];
+
+        rubiksCube[3][6] = tmp2[6];
+        rubiksCube[3][7] = tmp2[7];
+        rubiksCube[3][8] = tmp2[8];
+
+        rubiksCube[4][6] = tmp3[6];
+        rubiksCube[4][7] = tmp3[7];
+        rubiksCube[4][8] = tmp3[8];
     }
 
     public void moveUp() {

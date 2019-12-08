@@ -1,0 +1,602 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.4" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "fillx,hidemode 3,alignx left"
+			"$columnConstraints": "[100][100][100][100]"
+			"$rowConstraints": "[89][85][87]para"
+		} ) {
+			name: "editCubeFrame"
+			"title": "Edit Cube Faces"
+			"minimumSize": new java.awt.Dimension( 400, 400 )
+			"background": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+			"defaultCloseOperation": 2
+			"resizable": false
+			"visible": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[fill][fill][fill]"
+				"$rowConstraints": "[][][]0[]"
+			} ) {
+				name: "bluePnl"
+				"border": &LineBorder0 new javax.swing.border.LineBorder( sfield java.awt.Color black, 5, true )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "B1"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": &ColorUIResource0 new javax.swing.plaf.ColorUIResource( 214, 214, 214 )
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "B2"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "B3"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "B4"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "blueCenter"
+					"background": new java.awt.Color( 0, 0, 255, 255 )
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"focusable": false
+					"selectionColor": #ColorUIResource0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "B6"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "B7"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "B8"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "B9"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 2"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 0"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[fill][fill][fill][fill][fill]"
+				"$rowConstraints": "[][][][][]"
+			} ) {
+				name: "colorCodingPnl"
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+					"text": "Colors coding :"
+					"focusable": false
+					"editable": false
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0 3 1,alignx center,growx 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField2"
+					"focusable": false
+					"text": "W - White"
+					"editable": false
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField5"
+					"focusable": false
+					"text": "G - Green"
+					"editable": false
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 3 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField3"
+					"focusable": false
+					"text": "B - Blue"
+					"editable": false
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField6"
+					"focusable": false
+					"text": "R - Red"
+					"editable": false
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 3 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField4"
+					"focusable": false
+					"text": "O - Orange"
+					"editable": false
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 3"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField55"
+					"focusable": false
+					"text": "Y - Yellow"
+					"editable": false
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 3 3"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 0 2 1,align center center,grow 0 0"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[fill][fill][fill]"
+				"$rowConstraints": "[][][]0[]"
+			} ) {
+				name: "orangePnl"
+				"border": #LineBorder0
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "O1"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "O2"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "O3"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "O4"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "orangeCenter"
+					"background": new java.awt.Color( 255, 102, 0, 255 )
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"focusable": false
+					"selectionColor": #ColorUIResource0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "O6"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "O7"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "O8"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "O9"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 2"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 1,alignx center,growx 0"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[fill][fill][fill]"
+				"$rowConstraints": "[][][]0[]"
+			} ) {
+				name: "whitePnl"
+				"border": #LineBorder0
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "W1"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "W2"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "W3"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "W4"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "whiteCenter"
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"focusable": false
+					"selectionColor": #ColorUIResource0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "W6"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "W7"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "W8"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "W9"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 2"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 1"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[fill][fill][fill]"
+				"$rowConstraints": "[][][]0[]"
+			} ) {
+				name: "redPnl"
+				"border": #LineBorder0
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "R1"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "R2"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "R3"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "R4"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "redCenter"
+					"background": new java.awt.Color( 255, 0, 0, 255 )
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"focusable": false
+					"selectionColor": #ColorUIResource0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "R6"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "R7"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "R8"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "R9"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 2"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 1"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[fill][fill][fill]"
+				"$rowConstraints": "[][][]0[]"
+			} ) {
+				name: "yellowPnl"
+				"border": #LineBorder0
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Y1"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Y2"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Y3"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Y4"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "yellowCenter"
+					"background": new java.awt.Color( 255, 255, 0, 255 )
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"focusable": false
+					"selectionColor": #ColorUIResource0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Y6"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Y7"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Y8"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Y9"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 2"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 1"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[fill][fill][fill]"
+				"$rowConstraints": "[][][]0[]"
+			} ) {
+				name: "greenPnl"
+				"border": #LineBorder0
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "G1"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "G2"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "G3"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 0"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "G4"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "greenCenter"
+					"background": new java.awt.Color( 51, 204, 0, 255 )
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"focusable": false
+					"selectionColor": #ColorUIResource0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "G6"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "G7"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "G8"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 1 2"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "G9"
+					"minimumSize": new java.awt.Dimension( 30, 30 )
+					"selectionColor": #ColorUIResource0
+					"background": #Color0
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 2"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 2"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "confirmBtn"
+				"text": "Confirm"
+				"background": new java.awt.Color( 0, 153, 51, 255 )
+				"foreground": new java.awt.Color( 0, 0, 0, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "confirmBtnActionPerformed", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 2,align center bottom,grow 0 0"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 550, 455 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}
